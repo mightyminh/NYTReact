@@ -29,15 +29,8 @@ var Search = React.createClass({
     },
 
     render: function() {
-        return ( < div className = "main-container" >
-            <
-            Query updateSearch = { this.setQuery }
-            />
-
-            <
-            Results results = { this.state.results }
-            /> < /
-            div >
+        return ( 
+          // having a hard time with this
         )
     }
 });
